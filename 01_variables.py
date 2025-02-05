@@ -16,6 +16,17 @@ print ("Este es el valor de: ", my_bool_variable)
 # Algunas funciones del sistema
 print (len(my_string_variable))
 
+#variables en una sola linea
+name, surname, alias, age = "Sam", "Samsistem", "Skun", 44
+print ("Mi nombre es:", name, "Mi apellido es:", surname, "Mi edad es:", age)
+
+#inputs
+"""""
+first_name = input('Como te llamas?')
+age = input('Cuantos años tienes?')
+print("te llamas:", first_name)
+print("Tienes",age , "años")
+"""
 
 
 
